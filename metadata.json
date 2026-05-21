@@ -1,0 +1,6 @@
+{
+  "name": "Avaliação de Bolos",
+  "description": "Catálogo online e avaliações de bolos com controle de administrador e persistência no Supabase.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

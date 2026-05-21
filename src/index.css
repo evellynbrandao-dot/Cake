@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, Cambria, serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  /* Custom Warm Pastry Palette */
+  --color-brand-50: #FFF9F5;   /* Bento Cream Base Background */
+  --color-brand-100: #FFE4D6;  /* Soft peach background */
+  --color-brand-200: #ffd3bf;
+  --color-brand-300: #fec1a3;
+  --color-brand-400: #fca17d;
+  --color-brand-500: #f57342;  
+  --color-brand-600: #d64f20;
+  --color-brand-700: #a63412;
+  --color-brand-800: #5c2310;  /* Chocolate / Bento Dark Text */
+  --color-brand-900: #301004;  /* Deep Espresso / Amber 950 */
+
+  /* Pastel Rose / Pink Palette for highlights */
+  --color-rose-pastel-50: #FFF5F6;
+  --color-rose-pastel-100: #ffe4e8;
+  --color-rose-pastel-500: #ff6e85; /* Bento Vivid Pink Accent */
+  --color-rose-pastel-600: #e64e66;
+}
+
+/* Custom background animations & aesthetics */
+body {
+  background-color: var(--color-brand-50);
+  color: var(--color-brand-900);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-brand-50);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-brand-100);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-brand-200);
+}
